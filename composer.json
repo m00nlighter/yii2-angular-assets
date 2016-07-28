@@ -1,0 +1,43 @@
+{
+    "name": "m00nlighter/yii2-angular-assets",
+    "description": "Angular assets for Yii PHP framework 2.0",
+    "keywords": ["yii2", "extension", "assets", "angular", "modules"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vadim Kulik",
+            "email": "xbyte.com.ua@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "bower-asset/angular": "~1.5.8",
+      "bower-asset/angular-touch": "~1.5.8",
+      "bower-asset/angular-mocks": "~1.5.8",
+      "bower-asset/angular-messages": "~1.5.8",
+      "bower-asset/angular-message-format": "~1.5.8",
+      "bower-asset/angular-loader": "~1.5.8",
+      "bower-asset/angular-i18n": "~1.5.8",
+      "bower-asset/angular-cookies": "~1.5.8",
+      "bower-asset/angular-aria": "~1.5.8",
+      "bower-asset/angular-animate": "~1.5.8",
+      "bower-asset/angular-route": "~1.5.8",
+      "bower-asset/angular-sanitize": "~1.5.8",
+      "bower-asset/angular-scenario": "~1.5.8",
+      "bower-asset/angular-resource": "~1.5.8"
+    },
+    "extra": {
+        "asset-pattern-skip-version": "(-patch)",
+		"asset-installer-paths": {
+			"npm-asset-library": "vendor/npm",
+			"bower-asset-library": "vendor/bower"
+		}
+    },
+    "autoload": {
+        "psr-4": {
+            "m00nlighter\\angular\\": ""
+        }
+    }
+}
