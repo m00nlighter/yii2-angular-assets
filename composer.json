@@ -14,6 +14,7 @@
     "prefer-stable": true,
     "require": {
       "bower-asset/angular": "~1.5.8",
+      "bower-asset/angular-ui-router": "~1.5.8",
       "bower-asset/angular-touch": "~1.5.8",
       "bower-asset/angular-mocks": "~1.5.8",
       "bower-asset/angular-messages": "~1.5.8",
