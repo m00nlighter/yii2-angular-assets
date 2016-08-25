@@ -4,7 +4,7 @@ namespace m00nlighter\angular;
 use yii\web\AssetBundle;
 use yii\web\View;
 
-class AngularUIrouterAsset extends AssetBundle
+class AngularUIRouterAsset extends AssetBundle
 {
     public $sourcePath = '@bower';
     public $jsOptions = [
