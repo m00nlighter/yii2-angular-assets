@@ -13,21 +13,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-      "bower-asset/angular": "~1.5.8",
-      "bower-asset/angular-ui-router": "~1.5.8",
-      "bower-asset/angular-touch": "~1.5.8",
-      "bower-asset/angular-mocks": "~1.5.8",
-      "bower-asset/angular-messages": "~1.5.8",
-      "bower-asset/angular-message-format": "~1.5.8",
-      "bower-asset/angular-loader": "~1.5.8",
-      "bower-asset/angular-i18n": "~1.5.8",
-      "bower-asset/angular-cookies": "~1.5.8",
-      "bower-asset/angular-aria": "~1.5.8",
-      "bower-asset/angular-animate": "~1.5.8",
-      "bower-asset/angular-route": "~1.5.8",
-      "bower-asset/angular-sanitize": "~1.5.8",
-      "bower-asset/angular-scenario": "~1.5.8",
-      "bower-asset/angular-resource": "~1.5.8"
+ 
     },
     "extra": {
         "asset-pattern-skip-version": "(-patch)",

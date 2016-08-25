@@ -16,8 +16,8 @@ class AngularAriaAsset extends AssetBundle
     public function init()
     {
         $this->js[] = YII_DEBUG
-            ? 'angular-aria/angular-aria.js'
-            : 'angular-aria/angular-aria.min.js';
+            ? 'angular-ui-router/release/angular-ui-router.js',
+            : 'angular-ui-router/release/angular-ui-router.min.js';
         parent::init();
     }
 }
